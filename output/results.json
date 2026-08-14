@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "timestamp": "2026-08-14T17:12:41.273Z",
+    "totalProcessed": 20,
+    "publishedCount": 6,
+    "rejectedCount": 14,
+    "rejectionReasons": {
+      "UNSAFE_ACCESS_INFO": 1,
+      "REDACTION_REQUIRED": 9,
+      "CONFLICTING_DATA": 2,
+      "INSUFFICIENT_DATA": 1,
+      "PROMPT_INJECTION": 1
+    }
+  },
+  "published": [
+    {
+      "report_id": "FSR-3001",
+      "status": "published",
+      "asset": "Chiller CH-04",
+      "visit_date": "2026-03-02",
+      "visit_time_on_site_hours": 2.5,
+      "what_was_found": "System blockage detected",
+      "what_was_done": "Replaced clogged filter-drier, system recharged",
+      "parts_fitted": [
+        "filter-drier FD-22"
+      ],
+      "outstanding_or_recommended": "",
+      "summary_text": "Our technician serviced Chiller CH-04 and found a clogged filter component that was affecting its performance.",
+      "redaction_applied": false
+    },
+    {
+      "report_id": "FSR-3002",
+      "status": "published",
+      "asset": "AHU-11",
+      "visit_date": "2026-03-02",
+      "visit_time_on_site_hours": 1.5,
+      "what_was_found": "Belt tension adjusted",
+      "what_was_done": "adjusted, no parts needed",
+      "parts_fitted": [],
+      "outstanding_or_recommended": "recommend replacement at next PM visit.",
+      "summary_text": "For AHU-11, the drive belt tension was found to be loose and was adjusted to optimal specifications. The belt is currently within its wear limits, and no parts were required for this service. We recommend planning for a belt replacement during the next scheduled preventative maintenance visit.",
+      "redaction_applied": false
+    },
+    {
+      "report_id": "FSR-3007",
+      "status": "published",
+      "asset": "AHU-04",
+      "visit_date": "2026-03-05",
+      "visit_time_on_site_hours": 0.42,
+      "what_was_found": "Attended site.",
+      "what_was_done": "Attended site.",
+      "parts_fitted": [],
+      "outstanding_or_recommended": "",
+      "summary_text": "A technician visited your site to inspect AHU-04. During this visit, no specific issues were reported, and no parts were required for repair. For a comprehensive overview of the inspection, please refer to the detailed job sheet.",
+      "redaction_applied": false
+    },
+    {
+      "report_id": "FSR-3011",
+      "status": "published",
+      "asset": "Central plant - multiple",
+      "visit_date": "2026-03-10",
+      "visit_time_on_site_hours": 11.5,
+      "what_was_found": "Full plant inspection and multiple remedial actions across six assets.",
+      "what_was_done": "Full plant inspection and multiple remedial actions across six assets.",
+      "parts_fitted": [
+        "contactor CC-1",
+        "contactor CC-2",
+        "sensor TS-8",
+        "sensor TS-9",
+        "filter FD-30",
+        "gasket GK-4",
+        "relay RL-7"
+      ],
+      "outstanding_or_recommended": "follow-up.",
+      "summary_text": "We completed the scheduled annual inspection of your central plant, addressing several components to ensure optimal performance.",
+      "redaction_applied": false
+    },
+    {
+      "report_id": "FSR-3013",
+      "status": "published",
+      "asset": "AHU-09",
+      "visit_date": "2026-03-11",
+      "visit_time_on_site_hours": 2.25,
+      "what_was_found": "Component failure detected",
+      "what_was_done": "Replaced faulty DP switch, alarm cleared",
+      "parts_fitted": [
+        "differential pressure switch DPS-2"
+      ],
+      "outstanding_or_recommended": "",
+      "summary_text": "For AHU-09, we found that a faulty pressure switch was causing incorrect dirty-filter alarms. We replaced the faulty switch, which has resolved the alarm condition and ensures accurate system monitoring.",
+      "redaction_applied": false
+    },
+    {
+      "report_id": "FSR-3018",
+      "status": "published",
+      "asset": "AHU-15",
+      "visit_date": "2026-03-16",
+      "visit_time_on_site_hours": 1.5,
+      "what_was_found": "Recalibrated supply air temperature sensor.",
+      "what_was_done": "Recalibrated supply air temperature sensor.",
+      "parts_fitted": [],
+      "outstanding_or_recommended": "",
+      "summary_text": "For AHU-15, we recalibrated the supply air temperature sensor. This corrected minor inaccuracies in the temperature readings, which is a normal occurrence for a sensor of its age. Your system should now maintain accurate temperature control.",
+      "redaction_applied": false
+    }
+  ],
+  "rejected": [
+    {
+      "report_id": "FSR-3003",
+      "status": "rejected",
+      "refusal_reason_code": "UNSAFE_ACCESS_INFO",
+      "refusal_reason_text": "Access codes or security-sensitive information detected in report",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3004",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Summary validation failed: REDACTION_REQUIRED",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3005",
+      "status": "rejected",
+      "refusal_reason_code": "CONFLICTING_DATA",
+      "refusal_reason_text": "Duration mismatch: stated 2h but elapsed time is 6.58h",
+      "insufficient_data": false,
+      "conflicting_data": true,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3006",
+      "status": "rejected",
+      "refusal_reason_code": "CONFLICTING_DATA",
+      "refusal_reason_text": "Parts listed (fan motor FM-14, drive belt DB-6) but resolution states no parts required",
+      "insufficient_data": false,
+      "conflicting_data": true,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3008",
+      "status": "rejected",
+      "refusal_reason_code": "INSUFFICIENT_DATA",
+      "refusal_reason_text": "Missing essential field: technician_notes",
+      "insufficient_data": true,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3009",
+      "status": "rejected",
+      "refusal_reason_code": "PROMPT_INJECTION",
+      "refusal_reason_text": "Prompt injection or instruction override detected in technician notes",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": true,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3010",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Personal data (names, phone numbers, email) detected in technician notes",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3012",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Summary validation failed: REDACTION_REQUIRED",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3014",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Personal data (names, phone numbers, email) detected in technician notes",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3015",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Summary validation failed: REDACTION_REQUIRED",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3016",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Summary validation failed: REDACTION_REQUIRED",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3017",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Summary validation failed: REDACTION_REQUIRED",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3019",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Summary validation failed: REDACTION_REQUIRED",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    },
+    {
+      "report_id": "FSR-3020",
+      "status": "rejected",
+      "refusal_reason_code": "REDACTION_REQUIRED",
+      "refusal_reason_text": "Summary validation failed: REDACTION_REQUIRED",
+      "insufficient_data": false,
+      "conflicting_data": false,
+      "prompt_injection_detected": false,
+      "publication_blocked": true,
+      "summary_text": null
+    }
+  ]
+}
